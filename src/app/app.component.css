@@ -1,0 +1,14 @@
+#topBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#bottomBlock {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0; /* on le colle en bas */
+  width: 99%;
+  justify-content: space-between;
+}

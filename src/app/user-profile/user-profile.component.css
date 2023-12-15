@@ -1,0 +1,26 @@
+.container {
+  display: inline-block;
+  border: 2px solid grey;
+  padding: 0.085%;
+}
+
+.profile-photo {
+  display: block;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.profile-information,
+.profile-citation {
+  padding-left: 10px;
+  width: 100%;
+  padding-bottom: 5%;
+}
+.option-container {
+  background-color: lightgrey;
+  width: 100%;
+}
+.profile-option {
+  padding-left: 10px;
+  padding-top: 5%;
+}

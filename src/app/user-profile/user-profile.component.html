@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="profile-photo">
+    <img [src]="user.photo" />
+  </div>
+  <div class="profile-information">
+    <h3>Nom : {{ user.name }}</h3>
+    <h3>Prénom : {{ user.firstName }}</h3>
+  </div>
+  <div class="profile-citation">
+    <p>{{ user.quote }}</p>
+    <input type="text" [(ngModel)]="user.quote" />
+  </div>
+  <div class="option-container">
+    <div class="profile-option">
+      <button (click)="ageVisibility()">Afficher/Masquer mon âge</button>
+      <div [style.visibility]="isDivVisible ? 'visible' : 'hidden'">
+        <h3>Age : {{ user.age }}</h3>
+      </div>
+    </div>
+  </div>
+</div>
